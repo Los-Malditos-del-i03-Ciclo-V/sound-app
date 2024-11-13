@@ -1,0 +1,29 @@
+# Ignora archivos de Node.js
+node_modules/
+.DS_Store
+
+# Ignora archivos temporales
+*.tmp
+*.log
+*.bak
+
+# Ignora archivos de configuración
+config.json
+
+# Ignora archivos de prueba
+/test/
+/tests/
+
+# Ignora archivos de cache
+.cache/
+
+# Ignora archivos generados
+dist/
+build/
+
+# Ignora archivos específicos
+yarn.lock
+package-lock.json
+.env.local
+.env.development
+.env.production
